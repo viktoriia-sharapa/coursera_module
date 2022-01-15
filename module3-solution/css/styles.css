@@ -5,11 +5,7 @@
   margin:  0;
   padding: 0;
 }
-h1 {
-  margin-bottom: 15px;
-  margin-top: 15px;
-  font-family: Georgia;
-}
+
 
 h2 {
   position: absolute;
@@ -17,6 +13,44 @@ h2 {
   border: 1px solid black;
   padding: 5px 10px 5px 10px;
   font-family: Georgia;
+}
+
+header {
+    background-color: #FFE4E4;
+    border: 1px solid #222;
+}
+
+ul {
+  background-color: #C0C0C0;
+
+}
+
+.navbar {
+  padding-bottom: 0;
+}
+
+.container {
+  padding: 0;
+  margin-left: 0;
+}
+
+.navbar-toggler {
+  margin-right: 15px;
+}
+.container h1 {
+  margin-bottom: 25px;
+  margin-top: 15px;
+  font-family: Georgia;
+  margin-left: 25px;
+
+}
+
+.navbar-brand a {
+  text-decoration: none;
+}
+
+.navbar-brand h1 {
+  color: #000;
 }
 
 #Chiken {
@@ -32,10 +66,13 @@ h2 {
 }
 
 
+#Menu {
+  margin-top: 15px;
+}
 p {
   width: 90%;
   height: 100%;
-  padding-top: 50px;
+  padding-top: 60px;
   margin-right: 20px;
   margin-left: 20px;
   padding-bottom: 15px;
@@ -47,13 +84,27 @@ section {
 	background-color: #FFE4E1;
   position: relative;
   margin: 15px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
+
+
+#nav-list {
+  color: #C0C0C0;
+  text-align: center;
 }
+
+#nav-list li {
+  margin: 0;
+  padding: 0;
+}
+
+#nav-list a {
+  border: 1px solid black;
+  font-size: 1.1em;
+}
+/* Simple Responsive Framework. */
+
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
